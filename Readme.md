@@ -1,4 +1,4 @@
-# Word Cloud Animation
+# Word Cloud Animation | Twitter Trends
 
 This is a simple web application that generates a word cloud animation using the Twitter API. The application uses the `tweepy` library to access the Twitter API and retrieve trending topics for a specified location.
 
