@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="/static/style.css" />
+		<title>Word Cloud Animation</title>
+	</head>
+	<body>
+		<div class="control">
+			<h1>Trending on Twitter</h1>
+			<div class="loading" id="loading">
+				<div class="loading-spinner"></div>
+				<div class="loading-text">Loading trends...</div>
+			</div>
+			<form id="city-form">
+				<input
+					type="text"
+					id="city-input"
+					placeholder="e.g. New York"
+					required
+				/>
+				<button type="submit">Generate Word Cloud</button>
+				<span id="location"></span>
+			</form>
+		</div>
+		<div class="word-cloud" id="word-cloud"></div>
+		<script src="/static/script.js"></script>
+	</body>
+</html>

@@ -1,0 +1,4 @@
+Flask==1.1.2
+geocoder==1.38.1
+nltk==3.5
+tweepy==4.12.1
